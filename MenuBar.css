@@ -1,0 +1,56 @@
+.menuBar{
+  position: fixed;
+  top: 56px;
+  width: 100%;
+  padding: 0;
+ background: #373a48;
+  display: block;
+}
+.menuBar ul{
+  margin: auto;
+  list-style: none;
+  display: inline;
+  text-align: center;
+  padding: 0;
+}
+.menuBar li{
+  padding: 0;
+  float: left;
+  text-align: center;
+  font-size: 2rem;
+  display: inline;
+  margin-left: 50px;
+  margin-right: auto;
+  cursor: pointer;
+   color: white;
+
+}
+
+.arrowIconmenu1{
+  transform: rotate(180deg);
+}
+.arrowIconmenu2{
+  transform: rotate(180deg);
+}
+.arrowIconmenu3{
+  transform: rotate(180deg);
+}
+.arrowIconmenu4{
+  transform: rotate(180deg);
+}
+
+.menuBar li a{
+  padding:6px;
+  background: none;
+  border-radius: 10px;
+}
+.subMenu{
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+@media (max-width:786px) {
+  .menuBar {
+    display: none;
+  }
+}
