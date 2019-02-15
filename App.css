@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+.carousel{
+position: relative;
+top: 50px;
+margin-top: 2px;
+bottom: 50px;
+  z-index: 3;
+}
+.menuBar{
+  position: fixed;
+  z-index: 100;
+}
+.footer{
+  position: relative;
+  top: 50px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width:786px) {
+  .carousel{
+    margin-top: 200px;
+  }
+  .menuBar{
+    display: none;
+  }
+}
